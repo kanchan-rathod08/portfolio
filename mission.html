@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission - Your Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        /* Center images inside the columns */
+        #mission .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* For individual columns with images */
+        #mission .col-md-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Ensure all images have the same size */
+        #mission img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        /* Text and column adjustments */
+        #mission h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #mission p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Custom footer styling */
+        footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">kanchan rathod</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mission.html">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container py-5" id="mission">
+        <h2 class="text-center">My Mission</h2>
+        <p class="text-center">My mission is to develop innovative and creative software solutions that solve real-world problems and contribute to technological advancement. I aim to create user-friendly and scalable web applications that deliver a seamless user experience while pushing the boundaries of technology.</p>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-4">
+                <img src="images/innovation.png" height="200px" width="200px" class="img-fluid rounded" alt="Innovation" />
+                <h4 class="text-center mt-3">Innovation</h4>
+                <p class="text-center">My mission is to stay at the forefront of technology, constantly experimenting with new ideas, frameworks, and methodologies.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/web devlopment.png" height="200px" width="200px" class="img-fluid rounded" alt="Web Development" />
+                <h4 class="text-center mt-3">Web Development</h4>
+                <p class="text-center">Focusing on building responsive, secure, and accessible web applications that provide excellent user experience across all devices.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/user exprience.png" height="200px" width="200px" class="img-fluid rounded" alt="User Experience" />
+                <h4 class="text-center mt-3">User Experience</h4>
+                <p class="text-center">Creating applications with a user-centric approach, focusing on making interfaces intuitive, easy-to-use, and delightful.</p>
+            </div>
+        </div>
+
+        <p class="text-center">I believe that technology has the power to change lives and solve problems. By focusing on continuous learning, collaborating with like-minded professionals, and always striving for excellence, my goal is to make a positive impact in the tech industry. Whether through front-end development, back-end solutions, or full-stack applications, I am committed to building a better, more accessible digital world for all.</p>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 kanchan rathod. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
